@@ -7,7 +7,7 @@ This is our DS340W final project submission, where we replicate the parent injur
 1. Clone repo and open:
 - `Construction_Injury_Novel_Implementation.ipynb`
 
-2. In Jupyter, run:
+2. In Google Colab, run:
 - `Kernel -> Restart & Run All`
 
 3. The first cell in the notebook installs required Python packages automatically.
@@ -25,7 +25,7 @@ Then restart kernel and run all cells again.
 
 ## Model Training and Artifact Saving
 
-- The TA will train models from scratch by running the novel notebook.
+- The notebook trains models from scratch by running the novel notebook.
 - If run in Google Colab with Drive mounted, artifacts/checkpoints are saved to the runner's Google Drive path.
 - If run locally (non-Colab), artifacts/checkpoints are saved under `outputs/literal_author_style_cleaned/` in this repo.
 
@@ -36,15 +36,6 @@ The notebook runs our cleaned-data workflow and model comparison, including:
 - Novel model: **CatBoost**
 - Novel model: **Soft Voting Ensemble**
 
-Recorded test summary values in the notebook include:
-
-| Model | Accuracy | F1-score |
-|---|---:|---:|
-| CatBoost | 0.847618 | 0.816403 |
-| MLP | 0.815268 | 0.794519 |
-| Soft Voting Ensemble | 0.825821 | 0.791723 |
-| XGBoost | 0.817043 | 0.774582 |
-| Random Forest | 0.807279 | 0.767334 |
 
 ## Included Data Files Used By Novel Notebook
 
