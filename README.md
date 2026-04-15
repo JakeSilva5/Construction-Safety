@@ -1,6 +1,6 @@
 # DS340W Final Project Submission: Construction Injury Severity
 
-*add quick summary of this REpo for is for class DS340W where we took parent paper and made novel approaches*
+This is our DS340W final project submission, where we replicate the parent injury-severity pipeline and present novel cleaned-data model improvements.
 
 ## TA Code Running Instructions
 
@@ -11,6 +11,7 @@
 - `Kernel -> Restart & Run All`
 
 3. The first cell in the notebook installs required Python packages automatically.
+4. Continue running all cells top-to-bottom to train models and generate result tables.
 
 ### If you are on macOS
 
@@ -21,6 +22,12 @@ brew install libomp
 ```
 
 Then restart kernel and run all cells again.
+
+## Model Training and Artifact Saving
+
+- The TA will train models from scratch by running the novel notebook.
+- If run in Google Colab with Drive mounted, artifacts/checkpoints are saved to the runner's Google Drive path.
+- If run locally (non-Colab), artifacts/checkpoints are saved under `outputs/literal_author_style_cleaned/` in this repo.
 
 ## What To Expect From The Novel Notebook
 
