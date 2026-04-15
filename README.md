@@ -7,8 +7,10 @@ This is our DS340W final project submission, where we replicate the parent injur
 1. Clone repo and open:
 - `Construction_Injury_Novel_Implementation.ipynb`
 
-2. In Google Colab, run:
-- `Kernel -> Restart & Run All`
+2. In Google Colab:
+- Open the notebook in Colab.
+- Make sure the cleaned CSV files are also available to the runtime (either in the same Drive folder as the notebook, or uploaded/cloned into `/content`).
+- Use `Runtime -> Run all`.
 
 3. The first cell in the notebook installs required Python packages automatically.
 4. Continue running all cells top-to-bottom to train models and generate result tables.
@@ -22,6 +24,8 @@ brew install libomp
 ```
 
 Then restart kernel and run all cells again.
+
+Note: this macOS step is for local Jupyter runs, not Google Colab.
 
 ## Model Training and Artifact Saving
 
