@@ -1,8 +1,8 @@
 # DS340W Final Project Submission: Construction Injury Severity
 
-This submission is organized so the grader can run our **novel implementation** directly from a fresh clone.
+*add quick summary of this REpo for is for class DS340W where we took parent paper and made novel approaches*
 
-## TA Quick Start (Primary Grading Path)
+## TA Code Running Instructions
 
 1. Clone repo and open:
 - `Construction_Injury_Novel_Implementation.ipynb`
