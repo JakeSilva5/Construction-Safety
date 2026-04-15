@@ -15,18 +15,6 @@ This is our DS340W final project submission, where we replicate the parent injur
 3. The first cell in the notebook installs required Python packages automatically.
 4. Continue running all cells top-to-bottom to train models and generate result tables.
 
-### If you are on macOS
-
-If XGBoost fails with a `libomp.dylib` error, run once in terminal:
-
-```bash
-brew install libomp
-```
-
-Then restart kernel and run all cells again.
-
-Note: this macOS step is for local Jupyter runs, not Google Colab.
-
 ## Model Training and Artifact Saving
 
 - The notebook trains models from scratch by running the novel notebook.
